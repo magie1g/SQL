@@ -1,0 +1,8 @@
+CREATE TABLE shoes (id INTEGER PRIMARY KEY, name TEXT, size INTEGER, color TEXT, quantity INTEGER, price INTEGER);
+INSERT INTO shoes VALUES (1,"CHUCKS",3,"RED",7,60);
+INSERT INTO shoes VALUES (2,"jordans",7, "WHITE",9,86);
+INSERT INTO shoes VALUES (3,"vans", 5, "blue",8,77);
+INSERT INTO shoes VALUES (4,"Keds",6,"GREY",5,99);
+INSERT INTO shoes VALUES (5,"heels",9,"BLACK",9,60);
+SELECT * FROM shoes ORDER BY price DESC;
+SELECT MAX (price) FROM shoes;
